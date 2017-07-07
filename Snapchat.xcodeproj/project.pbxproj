@@ -8,23 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		091353B01F0FA01E00E0819E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091353AF1F0FA01E00E0819E /* AppDelegate.swift */; };
-		091353B21F0FA01E00E0819E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091353B11F0FA01E00E0819E /* ViewController.swift */; };
+		091353B21F0FA01E00E0819E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091353B11F0FA01E00E0819E /* SignInViewController.swift */; };
 		091353B51F0FA01E00E0819E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091353B31F0FA01E00E0819E /* Main.storyboard */; };
 		091353B71F0FA01E00E0819E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091353B61F0FA01E00E0819E /* Assets.xcassets */; };
 		091353BA1F0FA01E00E0819E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091353B81F0FA01E00E0819E /* LaunchScreen.storyboard */; };
 		091353C41F0FA04200E0819E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 091353C31F0FA04200E0819E /* GoogleService-Info.plist */; };
+		09E14C8E1F0FA963009903B9 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E14C8D1F0FA963009903B9 /* SnapsViewController.swift */; };
+		09E14C901F0FAB5C009903B9 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E14C8F1F0FAB5C009903B9 /* PictureViewController.swift */; };
+		09E14C921F0FB576009903B9 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E14C911F0FB576009903B9 /* SelectUserViewController.swift */; };
 		E17132D3DBC62AA1FCDF5C80 /* Pods_Snapchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4D4E4348057D33EDF78421 /* Pods_Snapchat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		091353AC1F0FA01E00E0819E /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		091353AF1F0FA01E00E0819E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		091353B11F0FA01E00E0819E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		091353B11F0FA01E00E0819E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		091353B41F0FA01E00E0819E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		091353B61F0FA01E00E0819E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		091353B91F0FA01E00E0819E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		091353BB1F0FA01E00E0819E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		091353C31F0FA04200E0819E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09E14C8D1F0FA963009903B9 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		09E14C8F1F0FAB5C009903B9 /* PictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		09E14C911F0FB576009903B9 /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		66AC8B4DA9E4688DD47D99B0 /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
 		6B4A270EE8DEDEFFFAB8A716 /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
 		6D4D4E4348057D33EDF78421 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				091353AF1F0FA01E00E0819E /* AppDelegate.swift */,
-				091353B11F0FA01E00E0819E /* ViewController.swift */,
+				09E14C8F1F0FAB5C009903B9 /* PictureViewController.swift */,
+				09E14C911F0FB576009903B9 /* SelectUserViewController.swift */,
+				091353B11F0FA01E00E0819E /* SignInViewController.swift */,
+				09E14C8D1F0FA963009903B9 /* SnapsViewController.swift */,
 				091353B31F0FA01E00E0819E /* Main.storyboard */,
 				091353B61F0FA01E00E0819E /* Assets.xcassets */,
 				091353B81F0FA01E00E0819E /* LaunchScreen.storyboard */,
@@ -188,10 +197,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Snapchat/Pods-Snapchat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,8 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				091353B21F0FA01E00E0819E /* ViewController.swift in Sources */,
+				091353B21F0FA01E00E0819E /* SignInViewController.swift in Sources */,
+				09E14C901F0FAB5C009903B9 /* PictureViewController.swift in Sources */,
+				09E14C921F0FB576009903B9 /* SelectUserViewController.swift in Sources */,
 				091353B01F0FA01E00E0819E /* AppDelegate.swift in Sources */,
+				09E14C8E1F0FA963009903B9 /* SnapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +402,7 @@
 				091353C01F0FA01E00E0819E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
